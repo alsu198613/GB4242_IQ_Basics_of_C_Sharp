@@ -36,10 +36,10 @@ else
     Console.WriteLine(num);
     while (num > 999)
     {
-        num /= 10
+        num /= 10;
 
     }
-    third_num = num % 10
+    third_num = num % 10;
 }
 
 Console.WriteLine(third_num);
@@ -56,7 +56,7 @@ int number = int.Parse(Console.ReadLine());
 
 if (number < 0 && number > 7)
 {
-    Console.WriteLine(“Такого дня нет”);
+    Console.WriteLine("Такого дня нет");
 }
 else if (number > 0 && number < 6)
 {
