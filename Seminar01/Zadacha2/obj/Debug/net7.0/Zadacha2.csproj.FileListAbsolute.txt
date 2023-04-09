@@ -1,0 +1,15 @@
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\bin\Debug\net7.0\Zadacha2.exe
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\bin\Debug\net7.0\Zadacha2.deps.json
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\bin\Debug\net7.0\Zadacha2.runtimeconfig.json
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\bin\Debug\net7.0\Zadacha2.dll
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\bin\Debug\net7.0\Zadacha2.pdb
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\obj\Debug\net7.0\Zadacha2.csproj.AssemblyReference.cache
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\obj\Debug\net7.0\Zadacha2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\obj\Debug\net7.0\Zadacha2.AssemblyInfoInputs.cache
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\obj\Debug\net7.0\Zadacha2.AssemblyInfo.cs
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\obj\Debug\net7.0\Zadacha2.csproj.CoreCompileInputs.cache
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\obj\Debug\net7.0\Zadacha2.dll
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\obj\Debug\net7.0\refint\Zadacha2.dll
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\obj\Debug\net7.0\Zadacha2.pdb
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\obj\Debug\net7.0\Zadacha2.genruntimeconfig.cache
+C:\Users\Александра\Desktop\GeekBrans-4242\Seminar01\Zadacha2\obj\Debug\net7.0\ref\Zadacha2.dll

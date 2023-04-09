@@ -1,0 +1,15 @@
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\bin\Debug\net7.0\Seminar02.exe
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\bin\Debug\net7.0\Seminar02.deps.json
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\bin\Debug\net7.0\Seminar02.runtimeconfig.json
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\bin\Debug\net7.0\Seminar02.dll
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\bin\Debug\net7.0\Seminar02.pdb
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\obj\Debug\net7.0\Seminar02.csproj.AssemblyReference.cache
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\obj\Debug\net7.0\Seminar02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\obj\Debug\net7.0\Seminar02.AssemblyInfoInputs.cache
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\obj\Debug\net7.0\Seminar02.AssemblyInfo.cs
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\obj\Debug\net7.0\Seminar02.csproj.CoreCompileInputs.cache
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\obj\Debug\net7.0\Seminar02.dll
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\obj\Debug\net7.0\refint\Seminar02.dll
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\obj\Debug\net7.0\Seminar02.pdb
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\obj\Debug\net7.0\Seminar02.genruntimeconfig.cache
+C:\Users\Александра\Desktop\GeekBrains-4242\Seminar02\obj\Debug\net7.0\ref\Seminar02.dll

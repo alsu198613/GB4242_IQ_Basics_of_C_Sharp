@@ -1,0 +1,15 @@
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\bin\Debug\net7.0\Seminar05.exe
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\bin\Debug\net7.0\Seminar05.deps.json
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\bin\Debug\net7.0\Seminar05.runtimeconfig.json
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\bin\Debug\net7.0\Seminar05.dll
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\bin\Debug\net7.0\Seminar05.pdb
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\obj\Debug\net7.0\Seminar05.csproj.AssemblyReference.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\obj\Debug\net7.0\Seminar05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\obj\Debug\net7.0\Seminar05.AssemblyInfoInputs.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\obj\Debug\net7.0\Seminar05.AssemblyInfo.cs
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\obj\Debug\net7.0\Seminar05.csproj.CoreCompileInputs.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\obj\Debug\net7.0\Seminar05.dll
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\obj\Debug\net7.0\refint\Seminar05.dll
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\obj\Debug\net7.0\Seminar05.pdb
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\obj\Debug\net7.0\Seminar05.genruntimeconfig.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с языками программирования\GeekBrains-4242\Seminar05\obj\Debug\net7.0\ref\Seminar05.dll
