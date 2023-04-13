@@ -1,0 +1,15 @@
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\bin\Debug\net7.0\Seminar07.exe
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\bin\Debug\net7.0\Seminar07.deps.json
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\bin\Debug\net7.0\Seminar07.runtimeconfig.json
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\bin\Debug\net7.0\Seminar07.dll
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\bin\Debug\net7.0\Seminar07.pdb
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\obj\Debug\net7.0\Seminar07.csproj.AssemblyReference.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\obj\Debug\net7.0\Seminar07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\obj\Debug\net7.0\Seminar07.AssemblyInfoInputs.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\obj\Debug\net7.0\Seminar07.AssemblyInfo.cs
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\obj\Debug\net7.0\Seminar07.csproj.CoreCompileInputs.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\obj\Debug\net7.0\Seminar07.dll
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\obj\Debug\net7.0\refint\Seminar07.dll
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\obj\Debug\net7.0\Seminar07.pdb
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\obj\Debug\net7.0\Seminar07.genruntimeconfig.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Seminar07\obj\Debug\net7.0\ref\Seminar07.dll
