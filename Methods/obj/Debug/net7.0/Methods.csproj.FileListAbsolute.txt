@@ -1,0 +1,15 @@
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\obj\Debug\net7.0\Methods.csproj.AssemblyReference.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\obj\Debug\net7.0\Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\obj\Debug\net7.0\Methods.AssemblyInfoInputs.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\obj\Debug\net7.0\Methods.AssemblyInfo.cs
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\obj\Debug\net7.0\Methods.csproj.CoreCompileInputs.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\bin\Debug\net7.0\Methods.exe
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\bin\Debug\net7.0\Methods.deps.json
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\bin\Debug\net7.0\Methods.runtimeconfig.json
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\bin\Debug\net7.0\Methods.dll
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\bin\Debug\net7.0\Methods.pdb
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\obj\Debug\net7.0\Methods.dll
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\obj\Debug\net7.0\refint\Methods.dll
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\obj\Debug\net7.0\Methods.pdb
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\obj\Debug\net7.0\Methods.genruntimeconfig.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\Methods\obj\Debug\net7.0\ref\Methods.dll
