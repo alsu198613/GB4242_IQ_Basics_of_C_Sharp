@@ -1,0 +1,5 @@
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\HW_2\obj\Debug\net6.0\HW_2.csproj.AssemblyReference.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\HW_2\obj\Debug\net6.0\HW_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\HW_2\obj\Debug\net6.0\HW_2.AssemblyInfoInputs.cache
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\HW_2\obj\Debug\net6.0\HW_2.AssemblyInfo.cs
+C:\Users\Александра\Documents\Обучение-Разработчик\I четверть\Знакомство с ЯП C#\GeekBrains-4242\GB4242_IQ_Basics_of_Programming\HW_2\obj\Debug\net6.0\HW_2.csproj.CoreCompileInputs.cache

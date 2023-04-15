@@ -1,29 +1,69 @@
 ﻿/* Задача №17.Напишите программу, которая принимает на вход координаты точки (X и Y), 
 причем X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
  */
-/*
-System.Console.WriteLine("Enter number of quarter:");
+
+Console.WriteLine("Enter number X:");
+int numX = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Enter number Y:");
+int numY = int.Parse(Console.ReadLine());
+
+if (numX > 0 && numY > 0)
+{
+    Console.WriteLine("Quarter I");
+}
+else if (numX < 0 && numY > 0)
+{
+    Console.WriteLine("Quarter II");
+}
+else if (numX < 0 && numY < 0)
+{
+    Console.WriteLine("Quarter III");
+}
+else if (numX > 0 && numY < 0)
+{
+    Console.WriteLine("Quarter VI");
+}
+
+// Задача 18. Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат
+// точек в этой четверти (x и y).
+
+Console.WriteLine("Enter number of quarter:");
 int num = int.Parse(Console.ReadLine());
 
 if (num == 1)
 {
-    System.Console.WriteLine("x > 0, y > 0");
+    Console.WriteLine("x > 0, y > 0");
 }
 else if (num == 2)
 {
-    System.Console.WriteLine("x < 0, y > 0");
+    Console.WriteLine("x < 0, y > 0");
 }
 else if (num == 3)
 {
-    System.Console.WriteLine("x < 0, y < 0");
+    Console.WriteLine("x < 0, y < 0");
 }
 else if (num == 4)
 {
-    System.Console.WriteLine("x > 0, y < 0");
+    Console.WriteLine("x > 0, y < 0");
 }
 else
 {
-    System.Console.WriteLine("Wrong quarter");
+    Console.WriteLine("Wrong quarter");
+}
+
+//2 вариант
+Console.WriteLine("Enter number of quarter");
+int numQ = int.Parse(Console.ReadLine());
+
+switch (numQ)
+{
+    case 1: Console.WriteLine("X>0, Y>0"); break;
+    case 2: Console.WriteLine("X<0, Y>0"); break;
+    case 3: Console.WriteLine("X<0, Y<0"); break;
+    case 4: Console.WriteLine("X>0, Y<0"); break;
+    default: Console.WriteLine("Wrong quarter num"); break;
+
 }
 
 /* Задача
@@ -34,57 +74,60 @@ Convert.ToDouble(Console.ReadLine()), которое нам пригодится
 Пусть банк регулярно начисляет по всем вкладам не только положенные по договору проценты, но еще и бонусы. И пусть, к примеру, 
  банк решит выполнить доначисление по всем клиентским вкладам в размере 15 единиц без учета суммы. Поменяем программу, 
  отображенную выше, чтобы к итоговой сумме были добавлены еще и бонусы.
+*/
+Console.WriteLine("Enter amount:");
+double amount = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите бонус: ");
+double bonus = Convert.ToDouble(Console.ReadLine());
+if (amount < 100)
+{
+    amount *= 1.05;
+}
+else if (amount < 200)
+{
+    amount *= 1.07;
+}
+else if (amount > 200)
+{
+    amount *= 1.1;
+}
 
-System.Console.WriteLine("Enter amount:");
-    double amount = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine($"Total amount = {amount}");
+Console.WriteLine($"Total amount + bonus = {amount + bonus}");
 
-    if (amount < 100)
-    {
-        amount = amount + amount * 0.05;
-    }
-    else if (amount < 200)
-    {
-        amount = amount + amount * 0.07;
-    }
-    else
-    {
-        amount = amount + amount * 0.1;
-    }
-    System.Console.WriteLine($"Total amount = {amount}");
-
-/* Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
+/* Задача 21: Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
 
 A (3,6); B (2,1) -> 5,09 
 A (7,-5); B (1,-1) -> 7,21
+*/
 
-
-System.Console.WriteLine("Enter X1:");
+Console.WriteLine("Enter X1:");
 int x1 = int.Parse(Console.ReadLine());
 
-System.Console.WriteLine("Enter Y1:");
+Console.WriteLine("Enter Y1:");
 int y1 = int.Parse(Console.ReadLine());
 
-System.Console.WriteLine("Enter X2:");
-int X2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter X2:");
+int x2 = int.Parse(Console.ReadLine());
 
-System.Console.WriteLine("Enter Y2:");
+Console.WriteLine("Enter Y2:");
 int y2 = int.Parse(Console.ReadLine());
 
-double result = Math.Sqrt(Math.Pow(X2 - x1, 2) + Math.Pow(y2 - y1, 2));
+double result = Math.Round(Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2)), 2);
 string result2 = string.Format("{0:N2}", result);
 
-System.Console.WriteLine(result2);
-*/
-/*Напишите программу, которая принимает на вход число (N) и выдаёт таблицу квадратов чисел 
+Console.WriteLine(result2);
+
+/* Задача 22: Напишите программу, которая принимает на вход число (N) и выдаёт таблицу квадратов чисел 
 от 1 до N.
 
 5 -> 1, 4, 9, 16, 25.
 2 -> 1,4
 */
-System.Console.WriteLine("Enter N:");
-int number = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter N:");
+int numberN = int.Parse(Console.ReadLine());
 
-for (int i = 1; i <= number; i++)
+for (int i = 1; i <= numberN; i++)
 {
-    System.Console.Write($"{Math.Pow(i, 2)}, ");
+    Console.Write($"{Math.Pow(i, 2)}, ");
 }

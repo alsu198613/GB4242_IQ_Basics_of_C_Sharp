@@ -35,7 +35,7 @@ Console.WriteLine("Enter Z1:");
 int z1 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Enter X2:");
-int X2 = int.Parse(Console.ReadLine());
+int x2 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Enter Y2:");
 int y2 = int.Parse(Console.ReadLine());
@@ -43,7 +43,7 @@ int y2 = int.Parse(Console.ReadLine());
 Console.WriteLine("Enter Z2:");
 int z2 = int.Parse(Console.ReadLine());
 
-double result = Math.Sqrt(Math.Pow(X2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2));
+double result = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2));
 string result2 = string.Format("{0:N2}", result);
 
 Console.WriteLine(result2);

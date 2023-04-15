@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\Александра\\.nuget\\packages\\": {}
@@ -13,26 +13,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\HW_2\\HW_2.csproj",
-      "projectName": "HW_2",
-      "projectPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\HW_2\\HW_2.csproj",
+      "projectUniqueName": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar04\\Seminar04.csproj",
+      "projectName": "Seminar04",
+      "projectPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar04\\Seminar04.csproj",
       "packagesPath": "C:\\Users\\Александра\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\HW_2\\obj\\",
+      "outputPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar04\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Александра\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -43,8 +43,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",

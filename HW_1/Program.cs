@@ -13,11 +13,14 @@ if (num1 > num2)
 {
     Console.WriteLine($"max = {num1}");
 }
-else
+else if (num1 < num2)
 {
     Console.WriteLine($"max = {num2}");
 }
-
+else
+{
+    Console.WriteLine("first number is equal to second number");
+}
 
 /*Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
@@ -29,14 +32,11 @@ Console.WriteLine("Enter first number: ");
 int num_1 = int.Parse(Console.ReadLine());
 Console.WriteLine("Enter second number: ");
 int num_2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter third number: ");
 int num_3 = int.Parse(Console.ReadLine());
-int max;
+int max = num1;
 
-if (num_1 > num_2)
-{
-    max = num_1;
-}
-else
+if (num_2 > max)
 {
     max = num_2;
 }
@@ -45,10 +45,11 @@ if (num_3 > max)
     max = num_3;
 }
 
-Console.WriteLine(max);
+Console.WriteLine($"Максимальное число из {num_1} {num_2} {num_3} = {max}");
 
 
-/* Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+/* Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным 
+(делится ли оно на два без остатка).
 
 4 -> да
 -3 -> нет
@@ -58,11 +59,11 @@ Console.WriteLine("Enter number: ");
 int number = int.Parse(Console.ReadLine());
 if (number % 2 == 0)
 {
-    Console.WriteLine("да");
+    Console.WriteLine("число четное");
 }
 else
 {
-    Console.WriteLine("нет");
+    Console.WriteLine("число нечетное");
 }
 
 
@@ -82,6 +83,17 @@ for (int i = 1; i < num + 1; i++)
         Console.WriteLine(i);
     }
 }
+
+//второе решение
+//Второе решение
+i = 2;
+while (i <= numN)
+{
+    Console.Write($"{i} ");
+    i += 2;
+    
+}
+
 
 
 

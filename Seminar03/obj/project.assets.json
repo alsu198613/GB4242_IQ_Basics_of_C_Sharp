@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Александра\\Desktop\\GeekBrains-4242\\Seminar3\\Seminar3.csproj",
+      "projectUniqueName": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar03\\Seminar3.csproj",
       "projectName": "Seminar3",
-      "projectPath": "C:\\Users\\Александра\\Desktop\\GeekBrains-4242\\Seminar3\\Seminar3.csproj",
+      "projectPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar03\\Seminar3.csproj",
       "packagesPath": "C:\\Users\\Александра\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Александра\\Desktop\\GeekBrains-4242\\Seminar3\\obj\\",
+      "outputPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar03\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Александра\\AppData\\Roaming\\NuGet\\NuGet.Config",
