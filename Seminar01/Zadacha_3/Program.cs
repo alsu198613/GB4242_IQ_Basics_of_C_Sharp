@@ -1,4 +1,8 @@
-﻿Console.WriteLine("Enter nummber of the day of the week");
+﻿// Задача №3.Напишите программу, которая будет выдавать название дня недели по заданному номеру.
+// 3 -> Среда
+// 5 -> Пятница
+
+Console.WriteLine("Enter nummber of the day of the week");
 int num = Convert.ToInt32(Console.ReadLine());
 switch (num)
 {

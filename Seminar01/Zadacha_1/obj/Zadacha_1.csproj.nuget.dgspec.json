@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с языками программирования\\GeekBrains-4242\\Seminar01\\Seminar01.csproj": {}
+    "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar01\\Zadacha_1\\Zadacha_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с языками программирования\\GeekBrains-4242\\Seminar01\\Seminar01.csproj": {
+    "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar01\\Zadacha_1\\Zadacha_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с языками программирования\\GeekBrains-4242\\Seminar01\\Seminar01.csproj",
-        "projectName": "Seminar01",
-        "projectPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с языками программирования\\GeekBrains-4242\\Seminar01\\Seminar01.csproj",
+        "projectUniqueName": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar01\\Zadacha_1\\Zadacha_1.csproj",
+        "projectName": "Zadacha_1",
+        "projectPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar01\\Zadacha_1\\Zadacha_1.csproj",
         "packagesPath": "C:\\Users\\Александра\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с языками программирования\\GeekBrains-4242\\Seminar01\\obj\\",
+        "outputPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar01\\Zadacha_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Александра\\AppData\\Roaming\\NuGet\\NuGet.Config",
