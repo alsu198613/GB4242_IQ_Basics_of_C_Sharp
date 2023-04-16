@@ -2,18 +2,27 @@
 3, 5 -> 243 (3⁵)
 2, 4-> 16 */
 
-Console.WriteLine("Enter number A: ");
-Console.WriteLine("Enter number B: ");
-int numberA = int.Parse(Console.ReadLine());
-int numberB = int.Parse(Console.ReadLine());
-int result = 1;
+Console.Write("Введите число: ");
+int num = int.Parse(Console.ReadLine());
+Console.Write("Введите степень: ");
+int rank = int.Parse(Console.ReadLine());
 
-for (int i = 1; i <= numberB; i++)
+Console.WriteLine($"{num} в степени {rank} = {Pow(num, rank)}");
+
+
+int Pow(int num, int rank)
 {
-    result = result * numberA;
-}
+    if (rank == 0) return 1;
+    else if (rank == 1) return num;
+    else if (num == 0 || num == 1) return num;
 
-Console.WriteLine(result);
+    int result = num;
+    for (int i = 2; i <= rank; i++)
+    {
+        result *= num;
+    }
+    return result;
+}
 
 
 /* Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
@@ -21,28 +30,62 @@ Console.WriteLine(result);
 82 -> 10
 9012 -> 12 */
 
-Console.WriteLine("Enter number: ");
-int num = int.Parse(Console.ReadLine());
-int sum = 0;
+Console.Write("Введите число: ");
+int number = int.Parse(Console.ReadLine());
+Console.WriteLine($"Суммф цифр = {GetSumNums(number)}");
 
-for (int i = 0; num > 0; i++)
+
+int GetSumNums(int number)
 {
-    sum += num % 10;
-    num /= 10;
+    int sum = 0;
+    while (number > 0)
+    {
+        sum += number % 10;
+        number /= 10;
+    }
+    return sum;
 }
-
-Console.WriteLine(sum);
 
 /*Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 6, 1, 33-> [6, 1, 33] */
 
-Console.WriteLine(("Введите длинну массива: "));
-int arrayLength = int.Parse(Console.ReadLine());
+int[] array = GetRandomArray(8, 0, 100);
+Console.WriteLine($"[{String.Join(",", array)}]");
 
-int[] randomArray = new int[arrayLength];
-for (int i = 0; i < arrayLength; i++)
+
+int[] GetRandomArray(int size, int minValue, int maxValue)
 {
-    randomArray[i] = new Random().Next(1, 9);
-    Console.Write(randomArray[i] + " ");
+    int[] result = new int[size];
+    for (int i = 0; i < size; i++)
+    {
+        result[i] = new Random().Next(minValue, maxValue + 1);
+    }
+
+    return result;
+}
+// 2 вариант
+Console.WriteLine("вывод массива на печать - 2 вариант");
+PrintArrayFor(array);
+
+void PrintArrayFor(int[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write($"{arr[i]}, ");
+    }
+    Console.WriteLine();
+}
+// 3 вариант
+
+Console.WriteLine("вывод массива на печать - 3 вариант");
+PrintArrayForeach(array);
+
+void PrintArrayForeach(int[] arr)
+{
+    foreach (var item in arr)
+    {
+        Console.Write($"{item}, ");
+    }
+    Console.WriteLine();
 }

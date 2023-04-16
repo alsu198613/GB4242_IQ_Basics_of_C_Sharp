@@ -18,7 +18,66 @@ if (first_digit == fifth_digit && second_digit == fourth_digit)
 } else 
 {
     Console.WriteLine("нет");
-} 
+}
+
+// 2 вариант
+int numPalindrome = SetNumber("Palindrome");
+
+bool isPalindrome = IsPalindromeInt(numPalindrome);
+
+isPalindrome = IsPalindromeString(numPalindrome.ToString());
+
+string str = isPalindrome ? "является палиндромом" : "не является палиндромом";
+
+System.Console.WriteLine($"число {numPalindrome} {str}");
+
+static bool IsPalindromeInt(int num)
+{
+    // num = 456654
+    int temp = num;
+    // temp = 456654
+    int revert = 0;
+
+    while (temp > 0)
+    {
+        //revert= 0*10=0 + 4=4
+        //revert= 4*10=40 + 5=45
+        //revert= 45*10=450 + 6=456
+        //revert= 456*10=4560 + 6=4566
+        //revert= 4566*10=45660 +5=45665
+        //revert= 45665*10=456650 + 6=456654
+        revert = (revert * 10) + (temp % 10);
+        //temp = 45665
+        //temp = 456
+        //temp = 45
+        //temp = 4
+        temp /= 10;
+    }
+
+    return revert == num;
+}
+
+static bool IsPalindromeString(string str)
+{
+
+    int size = str.Length;
+    for (int i = 0; i <= size / 2; ++i)
+    {
+        if (str[i] != str[size - 1 - i])
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+int SetNumber(string numberName = "")
+{
+    Console.Write($"Enter number {numberName}: ");
+    int num = Convert.ToInt32(Console.ReadLine());
+    return num;
+}
+
 
 /* Задача 21
 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
@@ -61,3 +120,21 @@ for (int i = 1; i <= number; i++)
 {
     Console.Write($"{Math.Pow(i, 3)}, ");
 }
+
+//2 вариант
+static int[] CubeTable(int n)
+{
+    int[] arr = new int[n];
+
+    for (int i = 1; i <= n; i++)
+    {
+        arr[i - 1] = i * i * i;
+    }
+
+    return arr;
+}
+
+int numb = SetNumber("N");
+int[] array = CubeTable(numb);
+
+Console.WriteLine(String.Join(", ", array));

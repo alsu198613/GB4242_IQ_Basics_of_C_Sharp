@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с языками программирования\\GeekBrains-4242\\Seminar05\\Seminar05.csproj",
+      "projectUniqueName": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar05\\Seminar05.csproj",
       "projectName": "Seminar05",
-      "projectPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с языками программирования\\GeekBrains-4242\\Seminar05\\Seminar05.csproj",
+      "projectPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar05\\Seminar05.csproj",
       "packagesPath": "C:\\Users\\Александра\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с языками программирования\\GeekBrains-4242\\Seminar05\\obj\\",
+      "outputPath": "C:\\Users\\Александра\\Documents\\Обучение-Разработчик\\I четверть\\Знакомство с ЯП C#\\GeekBrains-4242\\GB4242_IQ_Basics_of_Programming\\Seminar05\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Александра\\AppData\\Roaming\\NuGet\\NuGet.Config",
