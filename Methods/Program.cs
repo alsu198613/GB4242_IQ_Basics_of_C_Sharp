@@ -54,3 +54,13 @@ void PrintArrayForeach(int[] arr)
     }
     Console.WriteLine();
 }
+
+//4 
+void PrintArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (i == array.Length - 1) Console.WriteLine(array[i]);
+        else Console.Write($"{array[i]}, ");
+    }
+}

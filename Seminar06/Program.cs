@@ -3,12 +3,12 @@
 // а первый - на последнем и т.д.)
 // [1 2 3 4 5] -> [5 4 3 2 1]
 // [6 7 3 6] -> [6 3 7 6]
-/*
+
 Console.Clear();
 int[] array = GetRandomArray(12, 0, 100);
-Console.WriteLine($"[{String.Join(",", array)}]");
-array = MyReverse1(array);
-Console.WriteLine($"[{String.Join(",", array)}]");
+Console.WriteLine($"Случайный массив [{String.Join(",", array)}]");
+array = MyReverse(array);
+Console.WriteLine($"Перевернутый массив [{String.Join(",", array)}]");
 
 int[] GetRandomArray(int size, int minValue, int maxValue)
 {
@@ -21,7 +21,7 @@ int[] GetRandomArray(int size, int minValue, int maxValue)
     return result;
 }
 
-int[] MyReverse1(int[] array)
+int[] MyReverse(int[] array)
 {
     int[] reverse = new int[array.Length];
 
@@ -33,12 +33,25 @@ int[] MyReverse1(int[] array)
     return reverse;
 }
 
+//2 вариант
 
+MyReverse2(array);
+Console.WriteLine($"Перевернутый массив 2 вариант[{String.Join(",", array)}]");
+
+void MyReverse2(int[] array)
+{
+    for (int i = 0; i < array.Length / 2; i++)
+    {
+        int tmp = array[i];
+        array[i] = array[array.Length - 1 - i];
+        array[array.Length - 1 - i] = tmp;
+    }
+
+}
 /*Задача 40: Напишите программу, которая принимает на вход три числа и проверяет, может ли существовать 
 треугольник с сторонами такой длины.
 Теорема о неравенстве треугольника: каждая сторона треугольника меньше суммы двух других сторон. */
 
-/*
 Console.WriteLine("Enter sides of triangle ");
 int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
@@ -58,7 +71,7 @@ void IsTriangle(int a, int b, int c)
         Console.WriteLine("Triangle doesn't exist");
     };
 }
-*/
+
 /* Задача 42: Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 45 -> 101101
 3  -> 11
