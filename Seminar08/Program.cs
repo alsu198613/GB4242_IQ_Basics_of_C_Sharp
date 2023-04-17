@@ -1,2 +1,1 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿https://gist.github.com/dc60007dbf9ebd20ffad4029fdea6410.git
