@@ -64,3 +64,66 @@ void PrintArray(int[] array)
         else Console.Write($"{array[i]}, ");
     }
 }
+
+//метод создания двумерного массива из случайных чисел и его печать
+int[,] GetRandomMatrix(int rows, int columns, int min, int max)
+{
+    int[,] array = new int[rows, columns];
+
+    var rand = new Random();
+
+    for (int i = 0; i < rows; i++)
+    {
+        for (int j = 0; j < columns; j++)
+        {
+            array[i, j] = rand.Next(min, max + 1);
+        }
+    }
+
+    return array;
+}
+void PrintMatrix(int[,] matrix)
+{
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            System.Console.Write($"{matrix[i, j]} ");
+        }
+        System.Console.WriteLine();
+    }
+}
+
+//метод создания двумерного массива из случайных вещественных чисел и его печать
+
+double[,] matrix = GetRandDblMatrix(rows, columns, -100, 100);
+PrintDblMatrix(matrix);
+
+double[,] GetRandDblMatrix(int rows, int columns, int min, int max)
+{
+    double[,] array = new double[rows, columns];
+
+    var rand = new Random();
+
+    for (int i = 0; i < rows; i++)
+    {
+        for (int j = 0; j < columns; j++)
+        {
+            array[i, j] = Convert.ToDouble(rand.Next(min, max + 1)) / 10;
+        }
+    }
+
+    return array;
+}
+
+void PrintDblMatrix(double[,] matrix)
+{
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            System.Console.Write($"{matrix[i, j]:f2} ");
+        }
+        System.Console.WriteLine();
+    }
+}
