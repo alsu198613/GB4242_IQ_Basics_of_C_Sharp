@@ -66,6 +66,9 @@ void PrintArray(int[] array)
 }
 
 //метод создания двумерного массива из случайных чисел и его печать
+int[,] matrix = GetRandomMatrix(rows, columns, 0, 10);
+PrintMatrix(matrix);
+
 int[,] GetRandomMatrix(int rows, int columns, int min, int max)
 {
     int[,] array = new int[rows, columns];
