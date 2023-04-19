@@ -215,4 +215,62 @@ void Print3DArray(int[,,] matrix)
 // Задача 62.Напишите программу, которая заполнит спирально массив . Размер вводит юзер
 // Например, на выходе получается вот такой массив:
 
+// Задача 62.Напишите программу, которая заполнит спирально массив . Размер вводит юзер
+// Например, на выходе получается вот такой массив:
+
+
+int rowsN = SetNumber("rows");
+int columnsN = SetNumber("columns");
+
+int[,] spiralMatrix = FillArraySpiral(rowsN, columnsN); 
+
+PrintMatrix(spiralMatrix);
+
+
+int[,] FillArraySpiral(int rows, int columns)
+{
+    int[,] array = new int[rows, columns];
+    int num = 1;
+    int maxRow = rows - 1;
+    int maxCol = columns - 1;
+    int minRow = 0;
+    int minCol = 0;
+
+    while (num <= rows * columns)
+    {
+        // заполнение верхней строки
+        for (int i = minCol; i <= maxCol; i++)
+        {
+            array[minRow, i] = num;
+            num++;
+        }
+        minRow++;
+
+        // заполнение правого столбца
+        for (int i = minRow; i <= maxRow; i++)
+        {
+            array[i, maxCol] = num;
+            num++;
+        }
+        maxCol--;
+
+        // заполнение нижней строки
+        for (int i = maxCol; i >= minCol; i--)
+        {
+            array[maxRow, i] = num;
+            num++;
+        }
+        maxRow--;
+
+        // заполнение левого столбца
+        for (int i = maxRow; i >= minRow; i--)
+        {
+            array[i, minCol] = num;
+            num++;
+        }
+        minCol++;
+    }
+    return array;
+}
+
 
