@@ -1,0 +1,15 @@
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\obj\Debug\net6.0\HW_8.csproj.AssemblyReference.cache
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\obj\Debug\net6.0\HW_8.GeneratedMSBuildEditorConfig.editorconfig
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\obj\Debug\net6.0\HW_8.AssemblyInfoInputs.cache
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\obj\Debug\net6.0\HW_8.AssemblyInfo.cs
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\obj\Debug\net6.0\HW_8.csproj.CoreCompileInputs.cache
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\bin\Debug\net6.0\HW_8.exe
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\bin\Debug\net6.0\HW_8.deps.json
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\bin\Debug\net6.0\HW_8.runtimeconfig.json
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\bin\Debug\net6.0\HW_8.dll
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\bin\Debug\net6.0\HW_8.pdb
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\obj\Debug\net6.0\HW_8.dll
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\obj\Debug\net6.0\refint\HW_8.dll
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\obj\Debug\net6.0\HW_8.pdb
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\obj\Debug\net6.0\HW_8.genruntimeconfig.cache
+D:\полученные файлы\Обучение - Разработчик\I четверть\Знакомство с ЯП - C#\GB4242_IQ_Basics_of_Programming\HW_8\obj\Debug\net6.0\ref\HW_8.dll

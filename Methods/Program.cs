@@ -66,6 +66,9 @@ void PrintArray(int[] array)
 }
 
 //метод создания двумерного массива из случайных чисел и его печать
+int[,] matrix = GetRandomMatrix(rows, columns, 0, 10);
+PrintMatrix(matrix);
+
 int[,] GetRandomMatrix(int rows, int columns, int min, int max)
 {
     int[,] array = new int[rows, columns];
@@ -122,8 +125,8 @@ void PrintDblMatrix(double[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            System.Console.Write($"{matrix[i, j]:f2} ");
+            Console.Write($"{matrix[i, j]:f2} ");
         }
-        System.Console.WriteLine();
+        Console.WriteLine();
     }
 }
