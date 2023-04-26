@@ -19,49 +19,31 @@ int SetNumber(string text = "")
 
 int[] GetNumFromInterval(int startValue, int endValue)
 {
-    int size;
-    if (startValue < endValue)
-    {
-        size = endValue - startValue + 1;
-    }
-    else
-    {
-         size = startValue - endValue + 1;
-    }
+    int size = Math.Abs(endValue - startValue) + 1;
 
     int[] result = new int[size];
 
-
-    if (startValue <= endValue)
+    for (int i = 0; i < size; i++)
     {
-        for (int i = 0; i < size; i++)
+        result[i] = startValue;
+        if (startValue <= endValue)
         {
-            result[i] = startValue;
             startValue++;
         }
-
-        return result;
-    }
-    else
-    {
-        for (int i = 0; i < size; i++)
+        else
         {
-            result[i] = startValue;
             startValue--;
         }
-
-        return result;
     }
 
+    return result;
 }
 
-//Рекурсия
-Console.Write("Введите число: ");
-int numberM = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите число: ");
-int numberN = Convert.ToInt32(Console.ReadLine());
-NaturalToLow(numberM, numberN);
 
+//Рекурсия
+int numberM = SetNumber();
+int numberN = SetNumber();
+NaturalToLow(numberM, numberN);
 
 void NaturalToLow(int m, int n)
 {
@@ -81,18 +63,15 @@ void NaturalToLow(int m, int n)
 // M = 1; N = 15-> 120
 // M = 4; N = 8. -> 30
 
-Console.Write("Введите число M: ");
-int numM = Convert.ToInt32(Console.ReadLine());
-
-Console.Write("Введите число N: ");
-int numN = Convert.ToInt32(Console.ReadLine());
+int numM = SetNumber("M");
+int numN = SetNumber("N");
 
 SumNumbers(numM, numN);
 
 // вызов функции "сумма чисел от M до N"
 void SumNumbers(int m, int n)
 {
-    Console.Write(SumMN(m - 1, n));
+    Console.Write($"сумма натуральных элементов в промежутке от {m} до {n}: {SumMN(m - 1, n)}");
 }
 
 // функция сумма чисел от M до N
@@ -108,21 +87,17 @@ int SumMN(int m, int n)
         return res;
     }
 }
-
+Console.WriteLine();
 // Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
 // m = 2, n = 3->A(m, n) = 9
 // m = 3, n = 2->A(m, n) = 29
 
-Console.Write("Введите число M: ");
-int m = Convert.ToInt32(Console.ReadLine());
-
-Console.Write("Введите число N: ");
-int n = Convert.ToInt32(Console.ReadLine());
-
-AkkermanFunction(m, n);
-
+int m = SetNumber("m");
+int n = SetNumber("n");
 
 // вызов функции Аккермана
+AkkermanFunction(m, n);
+
 void AkkermanFunction(int m, int n)
 {
     Console.Write(Akkerman(m, n));
