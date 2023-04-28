@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-﻿//Seminar9g
-=======
-﻿/*
+﻿﻿/*
 // Массив вопросов и ответов на них
 string[,] questions = { {"Сколько будет 2+2?", "4"},
 {"Как называется самый большой океан?", "Тихий"},
@@ -63,4 +60,3 @@ int SumNumbers(int number)
 }
 
 Console.WriteLine($"Сумма цифр числа {num} равна {SumNumbers(num)}");
->>>>>>> 2fb89bbeedb5482b6e8c3ba073a43c6ccf2be5e4
